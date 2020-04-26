@@ -12,4 +12,4 @@ alter table team_xref_member
   
 alter table team_xref_member
   add constraint team_xref_member_fk1 foreign key (iUserSeqNo)
-  references systemuser (iUserSeqNo);
+  references users (iUserSeqNo);

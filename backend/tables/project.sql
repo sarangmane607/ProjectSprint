@@ -9,4 +9,4 @@ alter table project
 
 alter table project
   add constraint project_fk1 foreign key (iOwnerUserSeqNo)
-  references systemuser (iUserSeqNo);
+  references users (iUserSeqNo);
