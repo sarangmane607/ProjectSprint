@@ -26,6 +26,7 @@ public class ProjectController {
 	
 	@PostMapping("/update/project")
 	public Project updateProject(@RequestBody Project project) {
+		project.setName("updated");
 		return project;
 	}
 }

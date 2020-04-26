@@ -1,6 +1,9 @@
 package com.sprintproject.model;
 
-public class Project {
+import java.io.Serializable;
+
+public class Project implements Serializable {
+	private static final long serialVersionUID = 1668438046041462648L;
 	Long projectSeqNo;
 	String shortCode;
 	String name;
